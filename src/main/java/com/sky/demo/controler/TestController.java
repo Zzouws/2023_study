@@ -16,6 +16,6 @@ public class TestController {
     @GetMapping("/hello")
     public String test() {
         System.out.println("hello");
-        return "hello";
+        return "hello123";
     }
 }
